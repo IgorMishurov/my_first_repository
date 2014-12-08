@@ -44,7 +44,6 @@ public:
 	void feedForward(const vector <double> &inputVals);
 	void backProp(const vector <double> &targetVals);
 	void getResults(vector<double> &resultVals) const;
-	void toCommit(); 
 
 private:
 	vector<Layer> m_layers; // m_layers[layerNum][neuronNum]
